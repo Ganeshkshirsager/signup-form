@@ -9,7 +9,6 @@ This project is a SignUp Form application built with React, using EmailJS for em
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -83,11 +82,7 @@ Contributions are welcome! Please follow these steps to contribute:
     ```
 6. **Create a Pull Request**.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-Explanation of Dependencies:
+## Explanation of Dependencies:
 
 React: A JavaScript library for building user interfaces. It's the core library used for creating the components and managing the state of the application.
 
@@ -101,7 +96,7 @@ Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 
 @headlessui/react: A library that provides unstyled, fully accessible UI components. It's used to create the modal for the OTP verification popup.
 
-Summary of Installation Steps:
+## Summary of Installation Steps:
 
 Clone the repository: Use git clone to download the project to your local machine.
 
