@@ -1,10 +1,11 @@
-# SignUp Form Application
+# SignUp Form using react.js and eamil.js
 
 This project is a SignUp Form application built with React, using EmailJS for email verification, and styled with Tailwind CSS. The form includes validation for full name, mobile number, username, password, and email, with an OTP verification system for the email.
 
 ## Table of Contents
 
 - [Features](#features)
+- [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -17,6 +18,18 @@ This project is a SignUp Form application built with React, using EmailJS for em
 - **OTP Verification**: Users can verify their email using the OTP sent to their email.
 - **Form Validation**: Validates input fields to ensure they meet specified criteria.
 - **Styled Components**: Uses Tailwind CSS for styling.
+- **Animated Popup**: Utilizes Lottie animations for OTP verification popup.
+
+## Dependencies
+
+The project uses the following dependencies:
+
+- **React**: JavaScript library for building user interfaces.
+- **EmailJS**: Service to send emails directly from client-side JavaScript.
+- **React Toastify**: Toaster notifications for React.
+- **Lottie React**: Library for using Lottie animations in React.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **@headlessui/react**: Unstyled, accessible UI primitives for building custom components.
 
 ## Installation
 
@@ -47,7 +60,7 @@ This project is a SignUp Form application built with React, using EmailJS for em
 - Open the application in your browser.
 - Fill in the sign-up form with valid data.
 - Click on "Send Verification Code" to receive an OTP on your email.
-- Enter the received OTP in the provided field to verify your email.
+- Enter the received OTP in the provided field in the popup to verify your email.
 - Submit the form once all fields are validated and the email is verified.
 
 ## Contributing
@@ -73,3 +86,27 @@ Contributions are welcome! Please follow these steps to contribute:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Explanation of Dependencies:
+
+React: A JavaScript library for building user interfaces. It's the core library used for creating the components and managing the state of the application.
+
+EmailJS: A service that allows sending emails directly from client-side JavaScript. It's used to send the verification code to the user's email.
+
+React Toastify: A library for creating toast notifications in React. It's used to show success and error messages to the user.
+
+Lottie React: A library for rendering animations using Lottie in React applications. It's used for the OTP verification popup animation.
+
+Tailwind CSS: A utility-first CSS framework for rapidly building custom designs. It's used for styling the form and components.
+
+@headlessui/react: A library that provides unstyled, fully accessible UI components. It's used to create the modal for the OTP verification popup.
+
+Summary of Installation Steps:
+
+Clone the repository: Use git clone to download the project to your local machine.
+
+Install dependencies: Use npm install to install all the required packages.
+
+Set up EmailJS: Create an account on EmailJS, set up your email service and template, and update your code with the provided service ID, template ID, and user ID.
+
+Run the application: Use npm start to start the application and open it in your browser.
