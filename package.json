@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@firebase/app-compat": "^0.2.36",
     "@headlessui/react": "^2.1.2",
     "@heroicons/react": "^2.1.4",
     "emailjs-com": "^3.2.0",
