@@ -2,6 +2,13 @@
 
 This project is a SignUp Form application built with React, using EmailJS for email verification, and styled with Tailwind CSS. The form includes validation for full name, mobile number, username, password, and email, with an OTP verification system for the email.
 
+## ScreenShoots 
+
+![email-otp](https://github.com/Ganeshkshirsager/signup-form/assets/132088216/2a45c001-cae4-493c-b04b-aa5c374767ee)
+
+![Screenshot 2024-07-10 123854](https://github.com/Ganeshkshirsager/signup-form/assets/132088216/a84c964d-4214-4b95-a24e-56a0ea428b74)
+
+
 ## Table of Contents
 
 - [Features](#features)
